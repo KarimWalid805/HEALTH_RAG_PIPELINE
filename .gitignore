@@ -1,0 +1,10 @@
+# Virtual Environment
+venv/
+.env
+
+# ChromaDB Database
+db/
+chroma.sqlite3
+*.bin
+*.pickle
+__pycache__/   
