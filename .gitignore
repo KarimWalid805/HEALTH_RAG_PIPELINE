@@ -1,10 +1,22 @@
-# Virtual Environment
-venv/
+# Local credentials and machine-specific Neon configuration
 .env
+.env.*
+!.env.example
+.neon
+neon.ts
+neon.config.*
 
-# ChromaDB Database
+# Private source documents and generated data
+docs/
 db/
 chroma.sqlite3
 *.bin
 *.pickle
-__pycache__/   
+
+# Local Python and Node environments
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+

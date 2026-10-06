@@ -1,0 +1,11 @@
+langchain
+langchain-classic
+langchain-community
+langchain-openai
+langchain-postgres==0.0.19
+langchain-text-splitters
+openai
+pydantic
+python-dotenv
+rank-bm25
+
